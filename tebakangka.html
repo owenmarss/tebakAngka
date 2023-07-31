@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Program Tebak Angka</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="tebakangka.css" />
+    </head>
+    <body>
+        <section id="tebakAngka">
+            <section id="boxContainer">
+                <div class="title">
+                    <h1>Tebak Angka</h1>
+                </div>
+
+                <div class="tebakInput">
+                    <input type="number" name="tebakan" id="myTebakan" />
+                    <button onclick="nebak()">Tebak!</button>
+                </div>
+
+                <div class="result">
+                    <p id="hasil"></p>
+                </div>
+            </section>
+        </section>
+
+        <script src="tebakangka.js"> </script>
+    </body>
+</html>

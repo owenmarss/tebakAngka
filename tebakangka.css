@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#tebakAngka {
+    background-color: #515bb7;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1D267D;
+    width: 50%;
+    height: 40%;
+    padding-top: 2vh;
+    padding-inline: 2vw;
+    border-radius: 1rem;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+    color: #FFFFF0;
+    text-shadow: 2px 2px 2px #252525;
+}
+
+.tebakInput {
+    margin-top: 2vh;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tebakInput input {
+    padding-inline: 0.25rem;
+    padding-block: 0.75vh;
+}
+
+.tebakInput button {
+    padding-block: 0.75vh;
+    padding-inline: 1vw;
+    font-weight: 500;
+}
+
+.result {
+    margin-top: 4vh;
+}
+
+.result p {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px #252525;
+}
+
+p#hasil.correct {
+    color: #38E54D;
+}
+
+p#hasil.too-low {
+    color: #FE0000;
+}
+
+p#hasil.too-high {
+    color: #F1C93B;
+}
